@@ -26,8 +26,20 @@ const response = await fetch(url, { method: 'GET' });
 const data = await response.json();
 ```
 
+### Övningar med unit tests
+
+Skriv testfall för följande funktionalitet och implementera sedan i Vue enligt kravspecifikation: https://gist.github.com/zocom-christoffer-wallenberg/0098cbec3ffb19887780759b5260f2b2
+
+Skriv testfall för följande funktionalitet och implementera sedan i Vue enligt kravspecifikation (gör den utan Vue router): https://gist.github.com/zocom-christoffer-wallenberg/d827e540a749c7c7ad99d27ac8b80b19
+
+**Level up:** Testa att göra ovanstående övning med Vue router och unit test på det för mer information om att testa med Vue router: https://vue-test-utils.vuejs.org/guides/using-with-vue-router.html
+
 ## Artiklar
+
+Bra artikel om Javascript Transpilers: https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
 
 ## Videor
 
 ## Inspelningar
+
+https://drive.google.com/drive/folders/1Dn4JoA4ohmi6tMXOYr0Y8iM2VmystjbY?usp=sharing
