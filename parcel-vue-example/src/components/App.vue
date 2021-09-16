@@ -17,6 +17,17 @@ export default {
         return {
             message: 'Få en personlig hälsning!'
         }
+    },
+    mounted() {
+        let API_URL = '';
+        if (process.env.NODE_ENV === 'development') {
+            console.log('You are in development mode');
+            API_URL = 'http://localhost:3000/api/products';
+        } else if (process.env.NODE_ENV === 'production') {
+            API_URL = 'http://my-awesome-api.com/api/products';
+        }
+
+        console.log('API URL IS: ', API_URL);
     }
 }
 </script>

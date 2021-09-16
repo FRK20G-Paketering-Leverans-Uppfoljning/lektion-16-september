@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel serve ./src/index.html",
+    "production": "NODE_ENV=production parcel serve ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx npm-force-resolutions"
   },
