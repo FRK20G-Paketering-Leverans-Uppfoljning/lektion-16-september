@@ -2,11 +2,14 @@
 
 ## Övningar
 
+### Övning 1
 Skapa ett projekt med Parcel och Vue, utan att använda Vue CLI. Du ska göra en simpel todo-app. Följande komponenter ska finnas med:
 
 * App.vue
 * Todo-list.vue
 * Todo-item.vue
+
+### Övning 2
 
 Fortsätt på ovan projekt och skapa en .env-fil med en miljövariabel som heter NODE_ENV med värdet "development".
 
